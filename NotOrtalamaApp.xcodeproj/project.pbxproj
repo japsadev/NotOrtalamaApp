@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C03FC4E2A1B9114003BBABE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03FC4D2A1B9102003BBABE /* libsqlite3.tbd */; };
+		3C03FC5B2A1B9131003BBABE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C03FC512A1B912F003BBABE /* FMDatabasePool.m */; };
+		3C03FC5C2A1B9131003BBABE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C03FC542A1B912F003BBABE /* FMDatabaseQueue.m */; };
+		3C03FC5D2A1B9131003BBABE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C03FC552A1B9130003BBABE /* FMDatabaseAdditions.m */; };
+		3C03FC5E2A1B9131003BBABE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C03FC582A1B9130003BBABE /* FMDatabase.m */; };
+		3C03FC5F2A1B9131003BBABE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C03FC592A1B9130003BBABE /* FMResultSet.m */; };
+		3C03FC612A1B9FC7003BBABE /* notlar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3C03FC602A1B9FC7003BBABE /* notlar.sqlite */; };
+		3C03FC632A1B9FD3003BBABE /* Notlardao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03FC622A1B9FD3003BBABE /* Notlardao.swift */; };
+		3C2AF16D2A1AACB100D2566C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF16C2A1AACB100D2566C /* AppDelegate.swift */; };
+		3C2AF16F2A1AACB100D2566C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF16E2A1AACB100D2566C /* SceneDelegate.swift */; };
+		3C2AF1712A1AACB100D2566C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF1702A1AACB100D2566C /* ViewController.swift */; };
+		3C2AF1742A1AACB100D2566C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AF1722A1AACB100D2566C /* Main.storyboard */; };
+		3C2AF1762A1AACB200D2566C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AF1752A1AACB200D2566C /* Assets.xcassets */; };
+		3C2AF1792A1AACB200D2566C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AF1772A1AACB200D2566C /* LaunchScreen.storyboard */; };
+		3C2AF1842A1AACB200D2566C /* NotOrtalamaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF1832A1AACB200D2566C /* NotOrtalamaAppTests.swift */; };
+		3C2AF18E2A1AACB200D2566C /* NotOrtalamaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF18D2A1AACB200D2566C /* NotOrtalamaAppUITests.swift */; };
+		3C2AF1902A1AACB200D2566C /* NotOrtalamaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF18F2A1AACB200D2566C /* NotOrtalamaAppUITestsLaunchTests.swift */; };
+		3C2AF19D2A1AB01800D2566C /* NotHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF19C2A1AB01800D2566C /* NotHucreTableViewCell.swift */; };
+		3C2AF19F2A1AB2D400D2566C /* NotEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF19E2A1AB2D400D2566C /* NotEkleViewController.swift */; };
+		3C2AF1A12A1AB2E600D2566C /* NotDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF1A02A1AB2E600D2566C /* NotDetayViewController.swift */; };
+		3C2AF1A32A1B3B2100D2566C /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AF1A22A1B3B2100D2566C /* Notlar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C2AF1802A1AACB200D2566C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C2AF1612A1AACB100D2566C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2AF1682A1AACB100D2566C;
+			remoteInfo = NotOrtalamaApp;
+		};
+		3C2AF18A2A1AACB200D2566C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C2AF1612A1AACB100D2566C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2AF1682A1AACB100D2566C;
+			remoteInfo = NotOrtalamaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C03FC4D2A1B9102003BBABE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3C03FC4F2A1B912E003BBABE /* NotOrtalamaApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotOrtalamaApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3C03FC502A1B912E003BBABE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3C03FC512A1B912F003BBABE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3C03FC522A1B912F003BBABE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3C03FC532A1B912F003BBABE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3C03FC542A1B912F003BBABE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3C03FC552A1B9130003BBABE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3C03FC562A1B9130003BBABE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		3C03FC572A1B9130003BBABE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3C03FC582A1B9130003BBABE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3C03FC592A1B9130003BBABE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		3C03FC5A2A1B9131003BBABE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3C03FC602A1B9FC7003BBABE /* notlar.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = notlar.sqlite; sourceTree = "<group>"; };
+		3C03FC622A1B9FD3003BBABE /* Notlardao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlardao.swift; sourceTree = "<group>"; };
+		3C2AF1692A1AACB100D2566C /* NotOrtalamaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotOrtalamaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2AF16C2A1AACB100D2566C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C2AF16E2A1AACB100D2566C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C2AF1702A1AACB100D2566C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C2AF1732A1AACB100D2566C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C2AF1752A1AACB200D2566C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C2AF1782A1AACB200D2566C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C2AF17A2A1AACB200D2566C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2AF17F2A1AACB200D2566C /* NotOrtalamaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotOrtalamaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2AF1832A1AACB200D2566C /* NotOrtalamaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotOrtalamaAppTests.swift; sourceTree = "<group>"; };
+		3C2AF1892A1AACB200D2566C /* NotOrtalamaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotOrtalamaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2AF18D2A1AACB200D2566C /* NotOrtalamaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotOrtalamaAppUITests.swift; sourceTree = "<group>"; };
+		3C2AF18F2A1AACB200D2566C /* NotOrtalamaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotOrtalamaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C2AF19C2A1AB01800D2566C /* NotHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotHucreTableViewCell.swift; sourceTree = "<group>"; };
+		3C2AF19E2A1AB2D400D2566C /* NotEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEkleViewController.swift; sourceTree = "<group>"; };
+		3C2AF1A02A1AB2E600D2566C /* NotDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotDetayViewController.swift; sourceTree = "<group>"; };
+		3C2AF1A22A1B3B2100D2566C /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2AF1662A1AACB100D2566C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03FC4E2A1B9114003BBABE /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2AF17C2A1AACB200D2566C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2AF1862A1AACB200D2566C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C03FC4C2A1B9102003BBABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C03FC4D2A1B9102003BBABE /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C2AF1602A1AACB100D2566C = {
+			isa = PBXGroup;
+			children = (
+				3C2AF16B2A1AACB100D2566C /* NotOrtalamaApp */,
+				3C2AF1822A1AACB200D2566C /* NotOrtalamaAppTests */,
+				3C2AF18C2A1AACB200D2566C /* NotOrtalamaAppUITests */,
+				3C2AF16A2A1AACB100D2566C /* Products */,
+				3C03FC4C2A1B9102003BBABE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C2AF16A2A1AACB100D2566C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AF1692A1AACB100D2566C /* NotOrtalamaApp.app */,
+				3C2AF17F2A1AACB200D2566C /* NotOrtalamaAppTests.xctest */,
+				3C2AF1892A1AACB200D2566C /* NotOrtalamaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2AF16B2A1AACB100D2566C /* NotOrtalamaApp */ = {
+			isa = PBXGroup;
+			children = (
+				3C03FC602A1B9FC7003BBABE /* notlar.sqlite */,
+				3C2AF16C2A1AACB100D2566C /* AppDelegate.swift */,
+				3C2AF16E2A1AACB100D2566C /* SceneDelegate.swift */,
+				3C2AF1702A1AACB100D2566C /* ViewController.swift */,
+				3C2AF1722A1AACB100D2566C /* Main.storyboard */,
+				3C2AF1A02A1AB2E600D2566C /* NotDetayViewController.swift */,
+				3C2AF19E2A1AB2D400D2566C /* NotEkleViewController.swift */,
+				3C2AF1A22A1B3B2100D2566C /* Notlar.swift */,
+				3C2AF19C2A1AB01800D2566C /* NotHucreTableViewCell.swift */,
+				3C03FC572A1B9130003BBABE /* FMDatabase.h */,
+				3C03FC582A1B9130003BBABE /* FMDatabase.m */,
+				3C03FC5A2A1B9131003BBABE /* FMDatabaseAdditions.h */,
+				3C03FC552A1B9130003BBABE /* FMDatabaseAdditions.m */,
+				3C03FC502A1B912E003BBABE /* FMDatabasePool.h */,
+				3C03FC512A1B912F003BBABE /* FMDatabasePool.m */,
+				3C03FC532A1B912F003BBABE /* FMDatabaseQueue.h */,
+				3C03FC542A1B912F003BBABE /* FMDatabaseQueue.m */,
+				3C03FC562A1B9130003BBABE /* FMDB.h */,
+				3C03FC522A1B912F003BBABE /* FMResultSet.h */,
+				3C03FC592A1B9130003BBABE /* FMResultSet.m */,
+				3C2AF1752A1AACB200D2566C /* Assets.xcassets */,
+				3C2AF1772A1AACB200D2566C /* LaunchScreen.storyboard */,
+				3C2AF17A2A1AACB200D2566C /* Info.plist */,
+				3C03FC4F2A1B912E003BBABE /* NotOrtalamaApp-Bridging-Header.h */,
+				3C03FC622A1B9FD3003BBABE /* Notlardao.swift */,
+			);
+			path = NotOrtalamaApp;
+			sourceTree = "<group>";
+		};
+		3C2AF1822A1AACB200D2566C /* NotOrtalamaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AF1832A1AACB200D2566C /* NotOrtalamaAppTests.swift */,
+			);
+			path = NotOrtalamaAppTests;
+			sourceTree = "<group>";
+		};
+		3C2AF18C2A1AACB200D2566C /* NotOrtalamaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AF18D2A1AACB200D2566C /* NotOrtalamaAppUITests.swift */,
+				3C2AF18F2A1AACB200D2566C /* NotOrtalamaAppUITestsLaunchTests.swift */,
+			);
+			path = NotOrtalamaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C2AF1682A1AACB100D2566C /* NotOrtalamaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2AF1932A1AACB200D2566C /* Build configuration list for PBXNativeTarget "NotOrtalamaApp" */;
+			buildPhases = (
+				3C2AF1652A1AACB100D2566C /* Sources */,
+				3C2AF1662A1AACB100D2566C /* Frameworks */,
+				3C2AF1672A1AACB100D2566C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotOrtalamaApp;
+			productName = NotOrtalamaApp;
+			productReference = 3C2AF1692A1AACB100D2566C /* NotOrtalamaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C2AF17E2A1AACB200D2566C /* NotOrtalamaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2AF1962A1AACB200D2566C /* Build configuration list for PBXNativeTarget "NotOrtalamaAppTests" */;
+			buildPhases = (
+				3C2AF17B2A1AACB200D2566C /* Sources */,
+				3C2AF17C2A1AACB200D2566C /* Frameworks */,
+				3C2AF17D2A1AACB200D2566C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2AF1812A1AACB200D2566C /* PBXTargetDependency */,
+			);
+			name = NotOrtalamaAppTests;
+			productName = NotOrtalamaAppTests;
+			productReference = 3C2AF17F2A1AACB200D2566C /* NotOrtalamaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C2AF1882A1AACB200D2566C /* NotOrtalamaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2AF1992A1AACB200D2566C /* Build configuration list for PBXNativeTarget "NotOrtalamaAppUITests" */;
+			buildPhases = (
+				3C2AF1852A1AACB200D2566C /* Sources */,
+				3C2AF1862A1AACB200D2566C /* Frameworks */,
+				3C2AF1872A1AACB200D2566C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2AF18B2A1AACB200D2566C /* PBXTargetDependency */,
+			);
+			name = NotOrtalamaAppUITests;
+			productName = NotOrtalamaAppUITests;
+			productReference = 3C2AF1892A1AACB200D2566C /* NotOrtalamaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C2AF1612A1AACB100D2566C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3C2AF1682A1AACB100D2566C = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+					3C2AF17E2A1AACB200D2566C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3C2AF1682A1AACB100D2566C;
+					};
+					3C2AF1882A1AACB200D2566C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3C2AF1682A1AACB100D2566C;
+					};
+				};
+			};
+			buildConfigurationList = 3C2AF1642A1AACB100D2566C /* Build configuration list for PBXProject "NotOrtalamaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C2AF1602A1AACB100D2566C;
+			productRefGroup = 3C2AF16A2A1AACB100D2566C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2AF1682A1AACB100D2566C /* NotOrtalamaApp */,
+				3C2AF17E2A1AACB200D2566C /* NotOrtalamaAppTests */,
+				3C2AF1882A1AACB200D2566C /* NotOrtalamaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2AF1672A1AACB100D2566C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2AF1792A1AACB200D2566C /* LaunchScreen.storyboard in Resources */,
+				3C03FC612A1B9FC7003BBABE /* notlar.sqlite in Resources */,
+				3C2AF1762A1AACB200D2566C /* Assets.xcassets in Resources */,
+				3C2AF1742A1AACB100D2566C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2AF17D2A1AACB200D2566C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2AF1872A1AACB200D2566C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2AF1652A1AACB100D2566C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03FC632A1B9FD3003BBABE /* Notlardao.swift in Sources */,
+				3C2AF1712A1AACB100D2566C /* ViewController.swift in Sources */,
+				3C2AF1A32A1B3B2100D2566C /* Notlar.swift in Sources */,
+				3C2AF19F2A1AB2D400D2566C /* NotEkleViewController.swift in Sources */,
+				3C2AF19D2A1AB01800D2566C /* NotHucreTableViewCell.swift in Sources */,
+				3C2AF16D2A1AACB100D2566C /* AppDelegate.swift in Sources */,
+				3C03FC5B2A1B9131003BBABE /* FMDatabasePool.m in Sources */,
+				3C03FC5F2A1B9131003BBABE /* FMResultSet.m in Sources */,
+				3C2AF1A12A1AB2E600D2566C /* NotDetayViewController.swift in Sources */,
+				3C2AF16F2A1AACB100D2566C /* SceneDelegate.swift in Sources */,
+				3C03FC5C2A1B9131003BBABE /* FMDatabaseQueue.m in Sources */,
+				3C03FC5E2A1B9131003BBABE /* FMDatabase.m in Sources */,
+				3C03FC5D2A1B9131003BBABE /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2AF17B2A1AACB200D2566C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2AF1842A1AACB200D2566C /* NotOrtalamaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2AF1852A1AACB200D2566C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2AF18E2A1AACB200D2566C /* NotOrtalamaAppUITests.swift in Sources */,
+				3C2AF1902A1AACB200D2566C /* NotOrtalamaAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C2AF1812A1AACB200D2566C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2AF1682A1AACB100D2566C /* NotOrtalamaApp */;
+			targetProxy = 3C2AF1802A1AACB200D2566C /* PBXContainerItemProxy */;
+		};
+		3C2AF18B2A1AACB200D2566C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2AF1682A1AACB100D2566C /* NotOrtalamaApp */;
+			targetProxy = 3C2AF18A2A1AACB200D2566C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C2AF1722A1AACB100D2566C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2AF1732A1AACB100D2566C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C2AF1772A1AACB200D2566C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2AF1782A1AACB200D2566C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C2AF1912A1AACB200D2566C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C2AF1922A1AACB200D2566C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C2AF1942A1AACB200D2566C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotOrtalamaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.NotOrtalamaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotOrtalamaApp/NotOrtalamaApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C2AF1952A1AACB200D2566C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotOrtalamaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.NotOrtalamaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotOrtalamaApp/NotOrtalamaApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C2AF1972A1AACB200D2566C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.NotOrtalamaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotOrtalamaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotOrtalamaApp";
+			};
+			name = Debug;
+		};
+		3C2AF1982A1AACB200D2566C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.NotOrtalamaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotOrtalamaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotOrtalamaApp";
+			};
+			name = Release;
+		};
+		3C2AF19A2A1AACB200D2566C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.NotOrtalamaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotOrtalamaApp;
+			};
+			name = Debug;
+		};
+		3C2AF19B2A1AACB200D2566C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.NotOrtalamaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotOrtalamaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C2AF1642A1AACB100D2566C /* Build configuration list for PBXProject "NotOrtalamaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2AF1912A1AACB200D2566C /* Debug */,
+				3C2AF1922A1AACB200D2566C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2AF1932A1AACB200D2566C /* Build configuration list for PBXNativeTarget "NotOrtalamaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2AF1942A1AACB200D2566C /* Debug */,
+				3C2AF1952A1AACB200D2566C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2AF1962A1AACB200D2566C /* Build configuration list for PBXNativeTarget "NotOrtalamaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2AF1972A1AACB200D2566C /* Debug */,
+				3C2AF1982A1AACB200D2566C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2AF1992A1AACB200D2566C /* Build configuration list for PBXNativeTarget "NotOrtalamaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2AF19A2A1AACB200D2566C /* Debug */,
+				3C2AF19B2A1AACB200D2566C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C2AF1612A1AACB100D2566C /* Project object */;
+}
